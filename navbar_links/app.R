@@ -65,7 +65,7 @@ module1_server <- function() {
                         apply(combinations,1,function(x) {
                             p(tags$a(href = URLencode(
                                 paste0(
-                                    "/?tab=module2&radiobtn",
+                                    "/?tab=module2&radiobtn=",
                                     x[["Var1"]],
                                     "&selection=",
                                     x[["Var2"]]
